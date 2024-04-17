@@ -14,12 +14,12 @@ export default function Hero() {
         Hank MacLean on Base
       </h1>
 
-      <div className="flex justify-around items-center pt-16">
+      <div className="md:flex text-center  justify-around items-center pt-16">
         {" "}
-        <div>
+        <div className="flex justify-center">
           <Image src={plan} alt="plan" width={350} height={350} />{" "}
         </div>
-        <div>
+        <div className="pt-6 md:pt-0">
           <h1>Tokenomics</h1>
           <p>85% LP</p>
           <p>10% MARKETING</p>
